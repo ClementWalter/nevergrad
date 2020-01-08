@@ -44,7 +44,7 @@ def get_args() -> argparse.Namespace:
     parser.add_argument('--seed', type=int, default=None,
                         help="Use a seed for reproducibility (for generators which take care of seeding)")
     parser.add_argument('--cap_index', type=int, default=None,
-                        help="Stop after generationg/running settings #cap_index")
+                        help="Stop after generation/running settings #cap_index")
     parser.add_argument('--output', type=str, default=None,
                         help="Output path for the CSV file (default: <experiment>.csv). Existing files are appended")
     parser.add_argument('--imports', type=str, default=None,

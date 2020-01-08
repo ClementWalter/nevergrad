@@ -18,7 +18,7 @@ For type checking, please install `numpy-stubs` (git clone it then `pip install 
 mypy --implicit-reexport --strict nevergrad
 ```
 You can however omit the `--strict` mode and/or the installation of the `numpy` stubs for a simplified version of the checks.
-Indeed, if you are not familiar with type checking, we do not want it to be an annoyance and you can can even ignore errors by adding `# type: ignore` at the end of lines flagged as incorrect.
+Indeed, if you are not familiar with type checking, we do not want it to be an annoyance and you can even ignore errors by adding `# type: ignore` at the end of lines flagged as incorrect.
 If we consider it useful to have correct typing, we will update the code after your pull request is merged.
 
 Unit tests and type checks (in non-strict mode) will be automatically run every time a pull request is submitted/updated.
